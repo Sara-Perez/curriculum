@@ -1,0 +1,71 @@
+.PUESTO{
+
+    color:brown
+}
+.caja-diseño{
+    background-color: white;
+    border-radius: 40%;
+    min-height: 1600px;
+    min-width: 100%;
+}
+
+#titulo {
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 10px;
+    
+   
+}
+#titulo-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    
+}
+.disponibilidad{
+    margin-left: 40%;
+}
+
+.content{
+    
+    margin-left: 40%;
+    
+}
+.body-experiencia{
+    margin-left: 10%;
+}
+
+.descripcion-puesto{
+    color:  #9c9c9c;
+}
+.title{
+    margin-left: 45%;
+    color: black;
+}
+img{
+    margin-left: 40%;
+   border-radius: 50%;
+   transition:all .2s ease-in-out;
+}
+img:hover{
+    filter: sepia(60%);
+
+    border-radius:50%;
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 15px 15px #ff0095;
+-webkit-box-shadow: 0px 0px 15px 15px #ff0095;
+   
+}
+
+hr{
+    max-width: 50%;
+    margin-top: 5%;
+    
+}
+body{
+    background-color: palevioletred;
+    display: flex;
+}
+body:hover{
+    cursor: default;
+}
+
